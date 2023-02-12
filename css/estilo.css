@@ -1,3 +1,4 @@
+/* BASE */
 @import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lobster&family=Oswald:wght@200&family=Press+Start+2P&family=Special+Elite&display=swap");
 body {
   background-color: #a3b18a;
@@ -5,6 +6,7 @@ body {
   overflow-x: hidden;
 }
 
+/* HEADER */
 header {
   font-family: Holtwood One SC;
   font-size: xx-large;
@@ -43,6 +45,7 @@ main img {
   height: 960px;
 }
 
+/* FOOTER */
 footer {
   display: block;
   text-align: center;
@@ -89,6 +92,73 @@ footer .textoFoot {
   background-color: #dad7cd;
   width: 100%;
   font-size: 10px;
+}
+
+/* PRODUCTOS */
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+.productos p {
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  background-color: #F1FAEE;
+  border-radius: 4px;
+}
+
+.productos img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.productos img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+img {
+  border-radius: 4px;
+}
+
+/* REQUISITOS */
+.requisitos {
+  font-size: medium;
+  text-align: left;
+  margin: 5%;
+  background-color: #F1FAEE;
+  border: black dotted 2px;
+}
+
+.listaReq {
+  margin: 5px;
+}
+
+/* DONDE */
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.form {
+  text-align: left;
+}
+
+.tel {
+  margin-bottom: 20px;
+}
+.tel i {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.mapa p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: oswald;
 }
 
 /*# sourceMappingURL=estilo.css.map */
