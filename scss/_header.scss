@@ -1,4 +1,4 @@
-/* HEADER */
+/* HEADER INCLUYE MIXING EN NAV*/
 header {
     font-family: Holtwood One SC;
     font-size: xx-large;
@@ -6,11 +6,12 @@ header {
     background-image: url(../img/pattern.jpg);
 
     i {
-        font-size: 12px;
+        font-size: 13px;
         display: block;
         text-align: right;
         padding-right: 10px;
-        color: $paleta3;
+        color: $paleta1;
+        
     }
 
     .navbar {
@@ -19,11 +20,7 @@ header {
 
         a {
 
-            font-family: 'Oswald', sans-serif;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 20px;
-            font-weight: bold;
+            @include links;
 
             &:hover {
 

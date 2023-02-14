@@ -1,4 +1,4 @@
-/* FOOTER */
+/* FOOTER INCLUYE MIXING EN SOCIALES*/
 footer {
     display: block;
     text-align: center;
@@ -16,11 +16,7 @@ footer {
             color: $paleta4;
 
             a {
-                font-family: 'Oswald', sans-serif;
-                text-decoration: none;
-                text-transform: lowercase;
-                font-size: medium;
-                font-weight: bold;
+                @include links;
                 color: #3a5a40;
             }
         }

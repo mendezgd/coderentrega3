@@ -19,10 +19,12 @@ h2 {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+
     &:hover {
         -webkit-filter: brightness(100%);
     }
 }
+
 img {
     border-radius: 4px;
 }
